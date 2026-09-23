@@ -1,0 +1,21 @@
+Seguem os exercícios da matéria para a nossa aula de laboratório:
+
+(1) Escreva uma função que ordene os caracteres de uma String, considerando seus respectivos valores na tabela ASCII.
+Se sua string for "amoR", a resposta será "Ramo". O protótipo dessa função é o seguinte: void ordena(char *str).
+NÃO PODEMOS CRIAR VETORES E STRINGS AUXILIARES PRA RESOLVER ESSA QUESTÃO!!!
+
+(2) Retirar todos os múltiplos de k de um vetor de inteiros. Se o seu vetor é composto por {2, 3, 5, 4, 6, 8, 7, 9, 1},
+com tamanho 9, e k = 2, seu vetor deve se transformar em {3, 5, 7, 9, 1}, com tamanho igual a 5.
+O protótipo dessa função é o seguinte: void retira_mult_k(int *vet, int *novo_tam_vet, int k).
+NÃO PODEMOS CRIAR VETORES AUXILIARES PRA RESOLVER ESSA QUESTÃO: USE SOMENTE ÍNDICES!!!
+
+(3) Implemente um programa que derive polinômios. Cada polinômio é definido por um vetor de coeficientes.
+Por exemplo, o polinômio de grau dois 3x^2 + 2x + 12 terá um vetor de coeficientes v = {12, 2, 3}.
+Sua derivada será D = {2, 6}, o que equivale ao polinômio 6x + 2. O programa deve,infinitamente: (a) receber o valor do maior grau g do polinômio,
+seguido de (g + 1) coeficientes; (b) calcular a derivada do polinômio informado, usando a função void derivada(int *poli, int n, int* vet_derivada);
+e (c) imprimir os novos polinômios na tela. Este programa é válido somente quando o grau g do polinômio for menor ou igual a zero.
+
+(4) Escreva o método k_str que retorna todas as k strings, em que k é menor que o tamanho da string original.
+Se sua string for "abc" e k for igual a 2, seu código deve imprimir na tela as substrings "aa", "ba", "ca", "ab", "bb", "cb", "ac", "bc" e "cc".
+Se sua string for "abc" e k for igual a 1, seu código deve imprimir na tela as substrings "a", "b", "c".
+O protótipo dessa função é o seguinte: void k_str(char *str, int k). DICA: USE RECURSÃO PARA RESOLVER ESSE PROBLEMA!!!
