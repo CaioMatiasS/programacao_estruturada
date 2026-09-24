@@ -36,4 +36,5 @@ int main(){
     shift_troca_string(texto);
 
     printf("Texto alterado: %s\n", texto);
+    return 0;
 }
